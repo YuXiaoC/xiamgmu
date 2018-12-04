@@ -1,0 +1,1344 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #ebece7; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+header {
+  height: 302px;
+  width: 100%; }
+  header #header1 {
+    height: 30px;
+    width: 100%;
+    background: #e3e4e5;
+    border-top: 1px solid #b6b4b6;
+    border-bottom: 1px solid #dddddd; }
+    header #header1 div {
+      height: 100%;
+      width: 1210px;
+      margin: 0 auto; }
+      header #header1 div #ul1 {
+        height: 100%;
+        color: #999999;
+        float: left; }
+        header #header1 div #ul1 li {
+          list-style: none;
+          float: left;
+          height: 100%;
+          width: 100px;
+          line-height: 30px;
+          font-size: 12px; }
+          header #header1 div #ul1 li span {
+            float: left;
+            display: block;
+            line-height: 30px; }
+            header #header1 div #ul1 li span i {
+              display: block;
+              height: 17px;
+              width: 17px;
+              margin-top: 7px;
+              float: left;
+              background: url("../images/home.png"); }
+          header #header1 div #ul1 li .span2 i {
+            background-position: -22px 0; }
+      header #header1 div #ul2 {
+        height: 100%;
+        float: right;
+        /*榧犳爣缁忚繃浼佷笟閲囪喘鑿滃崟鏄剧ず鍑烘潵*/
+        /*榧犳爣缁忚繃li鑳屾櫙棰滆壊鏀瑰彉*/ }
+        header #header1 div #ul2 li {
+          list-style: none;
+          float: left;
+          position: relative;
+          height: 100%;
+          margin-left: 10px;
+          line-height: 30px;
+          font-size: 12px;
+          box-sizing: border-box; }
+          header #header1 div #ul2 li a {
+            text-decoration: none;
+            color: #999999; }
+          header #header1 div #ul2 li #zhuce {
+            color: #bc020f; }
+          header #header1 div #ul2 li span {
+            cursor: pointer;
+            color: #999999; }
+          header #header1 div #ul2 li span:hover {
+            color: #bc020f; }
+          header #header1 div #ul2 li .background i {
+            display: inline-block;
+            margin-left: 5px;
+            width: 12px;
+            height: 12px;
+            background: url("../images/home.png");
+            background-position: 0 -19px; }
+          header #header1 div #ul2 li #dindanBox {
+            z-index: 2;
+            position: absolute;
+            width: 280px;
+            height: 180px;
+            display: none;
+            background: #ffff;
+            border-left: 1px solid #dddddd;
+            border-right: 1px solid #dddddd;
+            border-bottom: 1px solid #dddddd; }
+            header #header1 div #ul2 li #dindanBox #dindanBox1 {
+              width: 100%;
+              height: 84px;
+              border-bottom: 1px solid #dddddd; }
+              header #header1 div #ul2 li #dindanBox #dindanBox1 ul li {
+                color: #b5b5b5;
+                height: 25px;
+                width: 130px;
+                line-height: 25px;
+                cursor: pointer; }
+              header #header1 div #ul2 li #dindanBox #dindanBox1 ul li:hover {
+                color: #bc020f; }
+            header #header1 div #ul2 li #dindanBox #dindanBox2 {
+              height: 58px;
+              width: 100%; }
+              header #header1 div #ul2 li #dindanBox #dindanBox2 ul li {
+                height: 25px;
+                width: 130px;
+                line-height: 25px;
+                color: #b5b5b5;
+                cursor: pointer; }
+              header #header1 div #ul2 li #dindanBox #dindanBox2 ul li:hover {
+                color: #bc020f; }
+        header #header1 div #ul2 .haveDiv:hover {
+          border-left: 1px solid #b5b5b5;
+          background: #ffffff; }
+        header #header1 div #ul2 .haveDiv:hover #dindanBox {
+          display: block; }
+        header #header1 div #ul2 #haveDiv:hover span {
+          color: #999999; }
+        header #header1 div #ul2 #haveDiv2 {
+          z-index: 2; }
+          header #header1 div #ul2 #haveDiv2 #caiGouBox {
+            background: white;
+            position: absolute;
+            width: 158px;
+            height: 57px;
+            border-left: 1px solid #dddddd;
+            border-right: 1px solid #dddddd;
+            border-bottom: 1px solid #dddddd;
+            display: none; }
+            header #header1 div #ul2 #haveDiv2 #caiGouBox li:hover {
+              color: #bc020f; }
+            header #header1 div #ul2 #haveDiv2 #caiGouBox ul li {
+              width: 69px;
+              height: 26px;
+              line-height: 26px;
+              float: left;
+              color: #b5b5b5;
+              cursor: pointer; }
+        header #header1 div #ul2 #haveDiv2:hover #caiGouBox {
+          display: block; }
+        header #header1 div #ul2 #haveDiv2:hover {
+          border-left: 1px solid #b5b5b5;
+          background: #ffff; }
+        header #header1 div #ul2 #haveDiv2:hover span {
+          color: #999999; }
+        header #header1 div #ul2 #haveDiv3 .kefu {
+          z-index: 2;
+          background: white;
+          position: absolute;
+          display: none;
+          height: 249px;
+          width: 170px;
+          left: -87px;
+          border-left: 1px solid #dddddd;
+          border-right: 1px solid #dddddd;
+          border-bottom: 1px solid #dddddd; }
+          header #header1 div #ul2 #haveDiv3 .kefu dd:hover {
+            color: #bc020f; }
+          header #header1 div #ul2 #haveDiv3 .kefu .kefu1 {
+            height: 132px;
+            width: 100%;
+            border-bottom: 1px dashed #dddddd; }
+            header #header1 div #ul2 #haveDiv3 .kefu .kefu1 dl {
+              color: #b5b5b5;
+              margin-left: 20px; }
+              header #header1 div #ul2 #haveDiv3 .kefu .kefu1 dl dt {
+                font-weight: 600;
+                color: black; }
+              header #header1 div #ul2 #haveDiv3 .kefu .kefu1 dl dd {
+                width: 73px;
+                height: 25px;
+                float: left;
+                cursor: pointer; }
+          header #header1 div #ul2 #haveDiv3 .kefu .kefu2 {
+            height: 116px;
+            width: 100%; }
+            header #header1 div #ul2 #haveDiv3 .kefu .kefu2 dl {
+              margin-left: 20px;
+              color: #b5b5b5; }
+              header #header1 div #ul2 #haveDiv3 .kefu .kefu2 dl dt {
+                font-weight: 600;
+                color: black; }
+              header #header1 div #ul2 #haveDiv3 .kefu .kefu2 dl dd {
+                width: 73px;
+                height: 25px;
+                float: left;
+                cursor: pointer; }
+        header #header1 div #ul2 #haveDiv3:hover .kefu {
+          display: block; }
+        header #header1 div #ul2 #haveDiv3:hover {
+          background: #fafafa; }
+        header #header1 div #ul2 #haveDiv3:hover span {
+          color: #999999; }
+        header #header1 div #ul2 #haveDiv4 .netnav {
+          display: none;
+          position: absolute;
+          width: 1208px;
+          height: 185px;
+          left: -1070px;
+          border-left: 1px solid #dddddd;
+          border-right: 1px solid #dddddd;
+          border-bottom: 1px solid #dddddd;
+          z-index: 2;
+          background: white; }
+          header #header1 div #ul2 #haveDiv4 .netnav .netnav1 {
+            height: 100%;
+            width: 366px;
+            float: left; }
+            header #header1 div #ul2 #haveDiv4 .netnav .netnav1 dl {
+              height: 165px;
+              width: 345px;
+              color: #999999;
+              margin: 10px 0 10px 20px;
+              border-right: 1px solid #eeee; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav1 dl dt {
+                font-weight: 600;
+                color: #666666; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav1 dl dd {
+                float: left;
+                height: 25px;
+                width: 84px;
+                cursor: pointer; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav1 dl dd:hover {
+                color: #bc020f; }
+          header #header1 div #ul2 #haveDiv4 .netnav .netnav2 {
+            height: 100%;
+            width: 276px;
+            float: left; }
+            header #header1 div #ul2 #haveDiv4 .netnav .netnav2 dl {
+              height: 165px;
+              width: 256px;
+              color: #999999;
+              margin: 10px 0 10px 20px;
+              border-right: 1px solid #eeee; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav2 dl dt {
+                font-weight: 600;
+                color: #666666; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav2 dl dd {
+                float: left;
+                height: 25px;
+                width: 84px;
+                cursor: pointer; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav2 dl dd:hover {
+                color: #bc020f; }
+          header #header1 div #ul2 #haveDiv4 .netnav .netnav3 {
+            height: 100%;
+            width: 278px;
+            float: left; }
+            header #header1 div #ul2 #haveDiv4 .netnav .netnav3 dl {
+              height: 165px;
+              width: 258px;
+              color: #999999;
+              margin: 10px 0 10px 20px;
+              border-right: 1px solid #eeee; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav3 dl dt {
+                font-weight: 600;
+                color: #666666; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav3 dl dd {
+                float: left;
+                height: 25px;
+                width: 84px;
+                cursor: pointer; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav3 dl dd:hover {
+                color: #bc020f; }
+          header #header1 div #ul2 #haveDiv4 .netnav .netnav4 {
+            height: 100%;
+            width: 276px;
+            float: left; }
+            header #header1 div #ul2 #haveDiv4 .netnav .netnav4 dl {
+              height: 165px;
+              width: 256px;
+              color: #999999;
+              margin: 10px 0 10px 20px; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav4 dl dt {
+                font-weight: 600;
+                color: #666666; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav4 dl dd {
+                float: left;
+                height: 25px;
+                width: 84px;
+                cursor: pointer; }
+              header #header1 div #ul2 #haveDiv4 .netnav .netnav4 dl dd:hover {
+                color: #bc020f; }
+        header #header1 div #ul2 #haveDiv4:hover {
+          background: #ffffff; }
+        header #header1 div #ul2 #haveDiv4:hover .netnav {
+          display: block; }
+        header #header1 div #ul2 #haveDiv4:hover span {
+          color: #999999; }
+  header #header2 {
+    height: 90px;
+    width: 1210px;
+    background: #ffffff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 15px 0; }
+    header #header2 #logo {
+      position: relative;
+      height: 60px;
+      width: 318px;
+      float: left; }
+      header #header2 #logo dl {
+        position: absolute;
+        height: 173px;
+        width: 80px;
+        top: 12px;
+        left: 182px;
+        z-index: 1; }
+        header #header2 #logo dl dt {
+          text-align: center;
+          font-size: 12px;
+          color: #666666;
+          width: 76px;
+          height: 22px;
+          line-height: 22px;
+          border: 1px solid #cccccc;
+          cursor: pointer; }
+          header #header2 #logo dl dt s {
+            display: inline-block;
+            margin-left: 5px;
+            margin-top: 10px;
+            height: 0;
+            line-height: 0;
+            font-size: 0;
+            border: 4px solid;
+            border-color: #333 #ffff  #ffff #ffffff; }
+        header #header2 #logo dl dd {
+          display: none;
+          height: 22px;
+          line-height: 22px;
+          margin: 5px 5px 5px 6px;
+          cursor: pointer;
+          font-size: 14px;
+          color: #666666; }
+        header #header2 #logo dl dd:hover {
+          color: #bc020f; }
+      header #header2 #logo dl:hover dt {
+        border: none; }
+      header #header2 #logo dl:hover dt > s {
+        margin-top: 4px;
+        border-color: #ffff #ffff #333333 #ffff; }
+      header #header2 #logo dl:hover dd {
+        display: block; }
+      header #header2 #logo dl:hover {
+        background: white;
+        border: 1px solid #ccc; }
+    header #header2 #search {
+      height: 100%;
+      width: 532px;
+      float: left; }
+      header #header2 #search span {
+        font-size: 0;
+        overflow: hidden; }
+        header #header2 #search span input {
+          height: 32px;
+          padding: 0;
+          float: left;
+          border: 0;
+          outline: none; }
+        header #header2 #search span .inpt {
+          padding-left: 10px;
+          font-size: 14px;
+          border: 3px solid #e4393c;
+          width: 408px; }
+        header #header2 #search span .btn1 {
+          color: white;
+          width: 54px;
+          height: 38px;
+          background: #e4393c;
+          cursor: pointer; }
+        header #header2 #search span .btn2 {
+          cursor: pointer;
+          color: white;
+          width: 54px;
+          height: 38px;
+          background: #666666; }
+      header #header2 #search ul {
+        margin-left: 100px; }
+        header #header2 #search ul li {
+          margin: 5px 5px 0 0;
+          float: left;
+          font-size: 12px;
+          color: #b5b5b5;
+          cursor: pointer; }
+        header #header2 #search ul li:hover {
+          color: #bc020f; }
+    header #header2 #MyshopCart {
+      width: 254px;
+      height: 100%;
+      float: right;
+      padding: 7px 0 0 0; }
+      header #header2 #MyshopCart ul li {
+        float: left;
+        height: 34px;
+        width: 108px;
+        margin-right: 14px;
+        background: #f7f7f7;
+        line-height: 34px;
+        text-align: center;
+        position: relative;
+        font-size: 12px;
+        color: #666666;
+        cursor: pointer; }
+        header #header2 #MyshopCart ul li i {
+          display: inline-block;
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          top: 7px;
+          left: 2px;
+          background: url(../images/home.png) no-repeat -18px -24px; }
+      header #header2 #MyshopCart ul .mine s {
+        position: absolute;
+        right: 9px;
+        top: 15px;
+        height: 0;
+        font-size: 0;
+        border: 6px solid;
+        border-color: #ccc transparent transparent transparent; }
+      header #header2 #MyshopCart ul .mycart i {
+        background: url(../images/home.png) no-repeat -49px -20px; }
+      header #header2 #MyshopCart ul .mycart s {
+        position: absolute;
+        right: 4px;
+        top: 12px;
+        font-size: 0;
+        height: 0;
+        border: 6px solid;
+        border-color: transparent transparent transparent #ccc; }
+      header #header2 #MyshopCart ul li:hover {
+        color: #bc020f; }
+  header #header3 {
+    position: relative;
+    height: 30px;
+    width: 1210px;
+    margin: 0 auto;
+    background: #fafafa; }
+    header #header3 #head3box {
+      margin: 0 7%;
+      float: right;
+      height: 100%;
+      width: 472px; }
+      header #header3 #head3box div {
+        font-size: 12px;
+        float: left;
+        height: 100%;
+        text-align: center;
+        line-height: 30px; }
+      header #header3 #head3box .hd3div1 {
+        position: relative;
+        cursor: pointer; }
+        header #header3 #head3box .hd3div1 .hd3div1-box {
+          z-index: 4;
+          display: none;
+          position: absolute;
+          width: 258px;
+          height: 183px;
+          background: white;
+          border: 1px solid #ccc;
+          padding: 10px 20px 0 20px;
+          box-sizing: border-box; }
+          header #header3 #head3box .hd3div1 .hd3div1-box .hd3div1-1 {
+            width: 226px;
+            height: 120px;
+            border-bottom: 1px dashed #f5afb1; }
+            header #header3 #head3box .hd3div1 .hd3div1-box .hd3div1-1 dl {
+              float: left; }
+              header #header3 #head3box .hd3div1 .hd3div1-box .hd3div1-1 dl dt {
+                width: 110px;
+                height: 28px;
+                text-align: left; }
+              header #header3 #head3box .hd3div1 .hd3div1-box .hd3div1-1 dl dd {
+                text-align: left;
+                width: 110px;
+                height: 28px;
+                cursor: pointer;
+                color: #999999; }
+                header #header3 #head3box .hd3div1 .hd3div1-box .hd3div1-1 dl dd span {
+                  color: #000000; }
+            header #header3 #head3box .hd3div1 .hd3div1-box .hd3div1-1 .complete dd {
+              color: #333333; }
+              header #header3 #head3box .hd3div1 .hd3div1-box .hd3div1-1 .complete dd s {
+                display: inline-block;
+                height: 13px;
+                width: 13px;
+                background: url(../images/star.png) no-repeat -9px -59px; }
+          header #header3 #head3box .hd3div1 .hd3div1-box .hd3div1-2 {
+            width: 226px;
+            height: 56px; }
+            header #header3 #head3box .hd3div1 .hd3div1-box .hd3div1-2 p {
+              display: inline-block;
+              height: 22px;
+              width: 100%;
+              line-height: 22px;
+              text-align: left; }
+              header #header3 #head3box .hd3div1 .hd3div1-box .hd3div1-2 p img {
+                font-size: 0;
+                height: 22px; }
+      header #header3 #head3box .hd3div1:hover .hd3div1-box {
+        display: block; }
+      header #header3 #head3box .hd3div2 {
+        width: 130px; }
+        header #header3 #head3box .hd3div2 div {
+          height: 17px;
+          width: 78px;
+          margin: 6px 0 0 10px;
+          background: url(../images/star.png) no-repeat 0 -35px; }
+        header #header3 #head3box .hd3div2 span {
+          color: #009900; }
+          header #header3 #head3box .hd3div2 span s {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: url(../images/star.png) -10px -60px; }
+      header #header3 #head3box .hd3div3 {
+        width: 86px;
+        height: 100%;
+        float: left;
+        color: #999999;
+        cursor: pointer; }
+        header #header3 #head3box .hd3div3 s {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background: url(../images/smallJinLin-2.png) no-repeat -6px -3px; }
+      header #header3 #head3box .hd3div4:hover {
+        color: #bc020f; }
+      header #header3 #head3box .hd3div5:hover {
+        color: #bc020f; }
+      header #header3 #head3box .hd3div4 {
+        width: 86px;
+        height: 100%;
+        float: left;
+        color: #999999;
+        cursor: pointer; }
+        header #header3 #head3box .hd3div4 s {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background: url(../images/smallJinLin-2.png) no-repeat -88px -3px; }
+      header #header3 #head3box .hd3div5 {
+        cursor: pointer;
+        color: #999999;
+        width: 86px;
+        height: 100%;
+        float: left; }
+        header #header3 #head3box .hd3div5 s {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background: url(../images/smallJinLin-2.png) no-repeat -171px -3px; }
+  header #header4 {
+    height: 111px;
+    width: 100%;
+    background: #f7ffff;
+    margin: 0 auto;
+    background: url(../images/goujiu.jpg) no-repeat -200px 0; }
+  header #header5 {
+    height: 40px;
+    width: 100%;
+    background: #bc020f; }
+    header #header5 #h5Box {
+      height: 100%;
+      width: 1210px;
+      margin: 0 auto; }
+      header #header5 #h5Box ul {
+        height: 100%; }
+        header #header5 #h5Box ul li {
+          float: left;
+          height: 100%;
+          text-align: center;
+          position: relative;
+          padding: 8px 0;
+          box-sizing: border-box; }
+          header #header5 #h5Box ul li span {
+            color: white;
+            display: block;
+            height: 24px;
+            padding: 0 15px;
+            border-radius: 12px;
+            cursor: pointer; }
+          header #header5 #h5Box ul li .fenlei {
+            position: relative; }
+            header #header5 #h5Box ul li .fenlei s {
+              position: absolute;
+              right: -2px;
+              top: 10px;
+              height: 0;
+              font-size: 0;
+              border: 6px solid;
+              border-color: #333333 transparent transparent transparent; }
+            header #header5 #h5Box ul li .fenlei .fenleiBox {
+              z-index: 3;
+              display: none;
+              position: absolute;
+              top: 32px;
+              left: -63px;
+              width: 1209px;
+              height: 447px;
+              border: 1px solid #bebab0;
+              padding: 1px 0 0 4px;
+              background: #e2e6df;
+              padding-left: 40px;
+              box-sizing: border-box;
+              opacity: 0.8; }
+              header #header5 #h5Box ul li .fenlei .fenleiBox .fenleiBox-top {
+                height: 50px;
+                width: 752px;
+                border-bottom: 1px dashed #666; }
+                header #header5 #h5Box ul li .fenlei .fenleiBox .fenleiBox-top div {
+                  width: 125px;
+                  height: 50px;
+                  float: left;
+                  padding: 13px 0;
+                  box-sizing: border-box; }
+                  header #header5 #h5Box ul li .fenlei .fenleiBox .fenleiBox-top div span {
+                    display: block;
+                    border: 12px;
+                    color: #333333; }
+                  header #header5 #h5Box ul li .fenlei .fenleiBox .fenleiBox-top div span:hover {
+                    border: 1px solid #bc020f; }
+              header #header5 #h5Box ul li .fenlei .fenleiBox .fenleiBox-bot {
+                height: 347px;
+                width: 752px;
+                padding: 20px 0 0 0; }
+                header #header5 #h5Box ul li .fenlei .fenleiBox .fenleiBox-bot dl {
+                  float: left;
+                  width: 125px; }
+                  header #header5 #h5Box ul li .fenlei .fenleiBox .fenleiBox-bot dl dd {
+                    height: 25px;
+                    color: #666;
+                    text-align: left;
+                    padding: 0 0 0 30px;
+                    font-size: 12px; }
+                  header #header5 #h5Box ul li .fenlei .fenleiBox .fenleiBox-bot dl span {
+                    display: block;
+                    font-size: 15px;
+                    font-weight: 600;
+                    height: 26px;
+                    line-height: 26px;
+                    border: 1px solid #000000;
+                    color: #000000; }
+                  header #header5 #h5Box ul li .fenlei .fenleiBox .fenleiBox-bot dl dd:hover {
+                    color: #bc020f; }
+        header #header5 #h5Box ul li:hover s {
+          position: absolute;
+          right: -1px;
+          top: 3px;
+          height: 0;
+          font-size: 0;
+          border: 6px solid;
+          border-color: transparent transparent white transparent; }
+        header #header5 #h5Box ul li:hover .fenleiBox {
+          display: block; }
+        header #header5 #h5Box ul li:hover > span {
+          background: #000000; }
+
+#lunbo-box {
+  position: relative;
+  height: 502px;
+  width: 100%;
+  background: #ccc;
+  position: relative; }
+  #lunbo-box #lunbo-menu {
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    width: 210px;
+    top: 0;
+    left: 10%;
+    background: #000000 0.2; }
+    #lunbo-box #lunbo-menu > div {
+      position: relative;
+      height: 50px;
+      width: 100%;
+      background: url(../images/caidanbeijing.png) no-repeat; }
+      #lunbo-box #lunbo-menu > div > a {
+        display: block;
+        width: 160px;
+        height: 100%;
+        line-height: 50px;
+        text-align: left;
+        margin: 0 0 0 50px;
+        color: white;
+        text-decoration: none;
+        z-index: 2; }
+      #lunbo-box #lunbo-menu > div .lunbo-menu1 {
+        display: none;
+        position: absolute;
+        height: 446px;
+        width: 460px;
+        left: 210px;
+        top: 0;
+        background: white; }
+        #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-top {
+          margin: 10px 0; }
+          #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-top > a {
+            display: inline-block;
+            height: 30px;
+            width: 60px;
+            font-size: 12px;
+            text-align: left;
+            line-height: 30px;
+            padding: 0 0 0 10px;
+            color: gray;
+            border: 1px solid #ececec;
+            line-height: 30px;
+            text-decoration: none;
+            margin: 0 5px 10px 10px; }
+          #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-top > a:hover {
+            background: #FF4A4C;
+            color: white; }
+        #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-bottom {
+          padding: 10px;
+          height: 342px;
+          width: 100%;
+          box-sizing: border-box; }
+          #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-bottom ul li {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            float: left;
+            width: 107px;
+            height: 160px; }
+            #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-bottom ul li > div {
+              height: 100%;
+              width: 100%;
+              position: absolute;
+              transition: all 1s; }
+              #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-bottom ul li > div .li-div1 {
+                cursor: pointer; }
+          #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-bottom ul li:hover > div {
+            top: -5px; }
+    #lunbo-box #lunbo-menu > div:hover .lunbo-menu1 {
+      display: block; }
+    #lunbo-box #lunbo-menu > div:hover {
+      background: #191919; }
+  #lunbo-box #lunbotu {
+    position: absolute;
+    height: 100%;
+    width: 8000px; }
+    #lunbo-box #lunbotu > div {
+      float: left; }
+      #lunbo-box #lunbotu > div img {
+        width: 100%; }
+  #lunbo-box #jiaodian {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    height: auto;
+    width: 100%; }
+    #lunbo-box #jiaodian span {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      background: #9999;
+      border-radius: 9px;
+      text-align: center;
+      line-height: 18px;
+      color: white;
+      cursor: pointer; }
+    #lunbo-box #jiaodian .active {
+      background: #c00000; }
+  #lunbo-box #lunbo-prev {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    top: 40%;
+    left: 25%; }
+  #lunbo-box #lunbo-next {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 40%;
+    left: 73%; }
+
+#lunbo-box {
+  position: relative;
+  height: 502px;
+  width: 100%;
+  background: #ccc;
+  position: relative;
+  overflow: hidden; }
+  #lunbo-box #lunbo-menu {
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    width: 210px;
+    top: 0;
+    left: 10%;
+    background: #000000 0.2; }
+    #lunbo-box #lunbo-menu > div {
+      position: relative;
+      height: 50px;
+      width: 100%;
+      background: url(../images/caidanbeijing.png) no-repeat; }
+      #lunbo-box #lunbo-menu > div > a {
+        display: block;
+        width: 160px;
+        height: 100%;
+        line-height: 50px;
+        text-align: left;
+        margin: 0 0 0 50px;
+        color: white;
+        text-decoration: none;
+        z-index: 2; }
+      #lunbo-box #lunbo-menu > div .lunbo-menu1 {
+        display: none;
+        position: absolute;
+        height: 446px;
+        width: 460px;
+        left: 210px;
+        top: 0;
+        background: white; }
+        #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-top {
+          margin: 10px 0; }
+          #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-top > a {
+            display: inline-block;
+            height: 30px;
+            width: 60px;
+            font-size: 12px;
+            text-align: left;
+            line-height: 30px;
+            padding: 0 0 0 10px;
+            color: gray;
+            border: 1px solid #ececec;
+            line-height: 30px;
+            text-decoration: none;
+            margin: 0 5px 10px 10px; }
+          #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-top > a:hover {
+            background: #FF4A4C;
+            color: white; }
+        #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-bottom {
+          padding: 10px;
+          height: 342px;
+          width: 100%;
+          box-sizing: border-box; }
+          #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-bottom ul li {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            float: left;
+            width: 107px;
+            height: 160px; }
+            #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-bottom ul li > div {
+              height: 100%;
+              width: 100%;
+              position: absolute;
+              transition: 1s; }
+              #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-bottom ul li > div .li-div1 {
+                cursor: pointer; }
+          #lunbo-box #lunbo-menu > div .lunbo-menu1 .lunbo-menu1-bottom ul li:hover > div {
+            top: -5px; }
+    #lunbo-box #lunbo-menu > div:hover .lunbo-menu1 {
+      display: block; }
+    #lunbo-box #lunbo-menu > div:hover {
+      background: #191919; }
+  #lunbo-box #lunbotu {
+    position: absolute;
+    height: 100%;
+    width: 10000px; }
+    #lunbo-box #lunbotu > div {
+      float: left; }
+      #lunbo-box #lunbotu > div > img {
+        cursor: pointer; }
+  #lunbo-box #jiaodian {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    height: auto;
+    width: 100%; }
+    #lunbo-box #jiaodian span {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      background: #9999;
+      border-radius: 9px;
+      text-align: center;
+      line-height: 18px;
+      color: white;
+      cursor: pointer; }
+    #lunbo-box #jiaodian .active {
+      background: #c00000; }
+  #lunbo-box #lunbo-prev {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    top: 40%;
+    left: 25%;
+    cursor: pointer; }
+  #lunbo-box #lunbo-next {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 40%;
+    left: 73%;
+    cursor: pointer; }
+
+#zaigouwu {
+  position: relative;
+  height: 177px;
+  width: 100%;
+  overflow: hidden; }
+  #zaigouwu img {
+    width: 100%;
+    display: block;
+    font-size: 0;
+    cursor: pointer; }
+
+#jiulei {
+  overflow: hidden;
+  position: relative;
+  height: 413px;
+  width: 100%; }
+  #jiulei img {
+    width: 100%;
+    display: block;
+    font-size: 0;
+    cursor: pointer; }
+
+#conp {
+  height: auto;
+  width: 45px;
+  font-size: 12px;
+  border: 2px solid #C00000;
+  position: fixed;
+  top: 50%;
+  left: 133px;
+  transform: translateY(-50%);
+  z-index: 4;
+  background: white;
+  display: none; }
+  #conp > div {
+    width: 100%; }
+    #conp > div a {
+      text-decoration: none;
+      color: #666666; }
+  #conp .conp1 a {
+    display: block;
+    height: 55px;
+    width: 100%;
+    background: url(../images/scan.png) center top no-repeat; }
+  #conp .conp1 a:hover {
+    background: url(../images/scan2.png) center top no-repeat red; }
+  #conp .conpp {
+    width: 30px;
+    height: 41px;
+    text-align: center;
+    margin-left: 6px;
+    border-bottom: 1px solid red; }
+    #conp .conpp a:hover {
+      color: red; }
+  #conp .conp9, #conp .conp10 {
+    height: 45px;
+    width: 45px; }
+    #conp .conp9 a, #conp .conp10 a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  #conp .conp9 {
+    background: url(../images/commend.png) center top no-repeat; }
+  #conp .conp9:hover a {
+    background: url(../images/commend2.png) center top no-repeat red; }
+  #conp .conp10 {
+    background: url(../images/kefu.gif) center top no-repeat; }
+  #conp .conp10:hover a {
+    background: url(../images/kefu2.gif) center top no-repeat red; }
+  #conp .conp11 {
+    width: 45px;
+    height: 35px; }
+    #conp .conp11 a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: url(../images/top.png) center top no-repeat; }
+  #conp .conp11:hover a {
+    background: url(../images/top2png.png) center top no-repeat red; }
+
+#HOtPlace {
+  width: 100%;
+  height: 646px; }
+  #HOtPlace #hot-content {
+    height: 646px;
+    width: 100%;
+    overflow: hidden;
+    position: relative; }
+    #HOtPlace #hot-content img {
+      position: absolute;
+      left: -166px;
+      top: 0;
+      cursor: pointer; }
+
+#contentBox {
+  width: 100%;
+  height: auto; }
+  #contentBox #content {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto; }
+    #contentBox #content .tentent-top {
+      background: white;
+      width: 100%;
+      height: 32px;
+      padding: 6px;
+      position: relative; }
+      #contentBox #content .tentent-top > span {
+        float: left;
+        text-align: center;
+        height: 30px;
+        font-weight: bold;
+        line-height: 30px;
+        margin: 0 10px;
+        font-size: 14px;
+        color: #C00000; }
+      #contentBox #content .tentent-top > input {
+        height: 32px;
+        outline: none;
+        line-height: 32px;
+        text-indent: 5px;
+        float: left;
+        border: 1px solid #ccc; }
+      #contentBox #content .tentent-top .tentent-top-left {
+        position: absolute;
+        left: 252px;
+        top: 0;
+        height: 100%;
+        padding: 7px 0 0 0;
+        box-sizing: border-box; }
+        #contentBox #content .tentent-top .tentent-top-left span {
+          float: left;
+          color: #999999;
+          margin: 4px 10px 0 10px; }
+        #contentBox #content .tentent-top .tentent-top-left > input {
+          outline: none;
+          width: 80px;
+          margin: 0 10px;
+          height: 30px;
+          line-height: 30px;
+          color: #ccc;
+          float: left;
+          text-indent: 5px;
+          border: 1px solid #ccc; }
+        #contentBox #content .tentent-top .tentent-top-left button {
+          outline: none;
+          border: 0;
+          cursor: pointer;
+          float: left;
+          height: 33px;
+          width: 75px;
+          background: #c00000;
+          color: white;
+          font-weight: bold;
+          font-size: 15px;
+          border-radius: 5px; }
+        #contentBox #content .tentent-top .tentent-top-left .checked {
+          width: 13px;
+          height: 13px;
+          margin: 9px 0 0 3px; }
+      #contentBox #content .tentent-top .tentent-top-right {
+        position: absolute;
+        right: 12px;
+        height: 32px;
+        box-sizing: border-box;
+        margin: 5px 0; }
+        #contentBox #content .tentent-top .tentent-top-right strong {
+          color: #666;
+          font-size: 16px; }
+        #contentBox #content .tentent-top .tentent-top-right a {
+          color: #878787;
+          margin: 0 5px;
+          white-space: nowrap;
+          font-size: 12px; }
+    #contentBox #content .tentent-bottom {
+      margin-top: 10px;
+      width: 1200px;
+      height: 985px;
+      margin: 0 auto; }
+      #contentBox #content .tentent-bottom .tentent-bottom-left {
+        float: left;
+        width: 190px;
+        height: 972px;
+        background: url(../images/1F.jpg) no-repeat; }
+        #contentBox #content .tentent-bottom .tentent-bottom-left a {
+          display: block;
+          height: 100%;
+          width: 100%; }
+      #contentBox #content .tentent-bottom .tentent-bottom-right {
+        width: 1005px;
+        height: 985px;
+        float: left; }
+        #contentBox #content .tentent-bottom .tentent-bottom-right ul {
+          width: 100%;
+          height: 100%; }
+          #contentBox #content .tentent-bottom .tentent-bottom-right ul li {
+            width: 246px;
+            height: 320px;
+            margin: 0 5px 5px 0;
+            padding: 10px;
+            float: left;
+            box-sizing: border-box;
+            background: white; }
+            #contentBox #content .tentent-bottom .tentent-bottom-right ul li img {
+              display: block;
+              width: 224px;
+              height: 224px; }
+            #contentBox #content .tentent-bottom .tentent-bottom-right ul li .div-title {
+              text-indent: 5px;
+              width: 226px;
+              height: 30px;
+              margin-top: 10px;
+              line-height: 30px;
+              text-overflow: clip;
+              overflow: hidden;
+              font-size: 12px;
+              color: white;
+              background: #393838; }
+            #contentBox #content .tentent-bottom .tentent-bottom-right ul li .price {
+              margin-top: 10px;
+              width: 226px;
+              height: 25px; }
+              #contentBox #content .tentent-bottom .tentent-bottom-right ul li .price span {
+                color: #ff0000; }
+                #contentBox #content .tentent-bottom .tentent-bottom-right ul li .price span strong {
+                  font-size: 20px; }
+              #contentBox #content .tentent-bottom .tentent-bottom-right ul li .price a {
+                margin-left: 45px;
+                display: inline-block;
+                width: 90px;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                background: #ff0000;
+                color: white; }
+    #contentBox #content .tentent-bottom2 {
+      margin-top: 30px;
+      width: 1200px;
+      height: 985px;
+      margin: 0 auto; }
+      #contentBox #content .tentent-bottom2 .tentent-bottom2-left {
+        float: left;
+        width: 190px;
+        height: 972px;
+        background: url(../images/2F.jpg) no-repeat; }
+        #contentBox #content .tentent-bottom2 .tentent-bottom2-left a {
+          display: block;
+          height: 100%;
+          width: 100%; }
+      #contentBox #content .tentent-bottom2 .tentent-bottom2-right {
+        width: 1005px;
+        height: 985px;
+        float: left; }
+        #contentBox #content .tentent-bottom2 .tentent-bottom2-right ul {
+          width: 100%;
+          height: 100%; }
+          #contentBox #content .tentent-bottom2 .tentent-bottom2-right ul li {
+            width: 246px;
+            height: 320px;
+            margin: 0 5px 5px 0;
+            padding: 10px;
+            float: left;
+            box-sizing: border-box;
+            background: white; }
+            #contentBox #content .tentent-bottom2 .tentent-bottom2-right ul li img {
+              display: block;
+              width: 224px;
+              height: 224px; }
+            #contentBox #content .tentent-bottom2 .tentent-bottom2-right ul li .div-title {
+              text-indent: 5px;
+              width: 226px;
+              height: 30px;
+              margin-top: 10px;
+              line-height: 30px;
+              text-overflow: clip;
+              overflow: hidden;
+              font-size: 12px;
+              color: white;
+              background: #393838; }
+            #contentBox #content .tentent-bottom2 .tentent-bottom2-right ul li .price {
+              margin-top: 10px;
+              width: 226px;
+              height: 25px; }
+              #contentBox #content .tentent-bottom2 .tentent-bottom2-right ul li .price span {
+                color: #ff0000; }
+                #contentBox #content .tentent-bottom2 .tentent-bottom2-right ul li .price span strong {
+                  font-size: 20px; }
+              #contentBox #content .tentent-bottom2 .tentent-bottom2-right ul li .price a {
+                margin-left: 45px;
+                display: inline-block;
+                width: 90px;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                background: #ff0000;
+                color: white; }
+
+#last-img {
+  width: 100%;
+  height: 545px; }
+  #last-img div {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto; }
+    #last-img div img {
+      cursor: pointer; }
+
+footer {
+  height: 480px;
+  width: 100%;
+  background: #eaeaea; }
+  footer #footer-top .fot-titleBox {
+    height: 303px;
+    width: 100%;
+    border-bottom: 1px solid #dedede; }
+    footer #footer-top .fot-titleBox .fot-title {
+      width: 1210px;
+      height: 102px;
+      margin: 0 auto;
+      box-sizing: border-box;
+      padding: 30px 0 30px 55px; }
+      footer #footer-top .fot-titleBox .fot-title ol li {
+        float: left;
+        height: 44px;
+        width: 200px;
+        position: relative;
+        text-indent: 46px;
+        line-height: 44px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #444444;
+        margin-right: 83px; }
+        footer #footer-top .fot-titleBox .fot-title ol li s {
+          position: absolute;
+          display: block;
+          width: 44px;
+          height: 44px;
+          background: url(../images/text.png) no-repeat 0 0; }
+    footer #footer-top .fot-titleBox .olContentBox {
+      width: 100%;
+      height: 200px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #dedede;
+      margin-bottom: 10px; }
+      footer #footer-top .fot-titleBox .olContentBox .olContent {
+        padding: 20px 0 20px 55px;
+        width: 1210px;
+        height: 160px;
+        margin: 0 auto; }
+        footer #footer-top .fot-titleBox .olContentBox .olContent dl {
+          margin-left: 46px;
+          color: #777777;
+          float: left;
+          margin-right: 96px; }
+          footer #footer-top .fot-titleBox .olContentBox .olContent dl dt {
+            width: 100px;
+            height: 30px;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 30px; }
+          footer #footer-top .fot-titleBox .olContentBox .olContent dl dd {
+            font-size: 12px;
+            height: 20px;
+            line-height: 20px;
+            width: 100px; }
+  footer #footer-bottom {
+    width: 1210px;
+    margin: 0 auto; }
+    footer #footer-bottom #footer-bottomTop {
+      height: 18px;
+      width: 1210px;
+      margin: 0 auto; }
+      footer #footer-bottom #footer-bottomTop p a {
+        text-decoration: none;
+        color: #777777;
+        font-size: 15px; }
+      footer #footer-bottom #footer-bottomTop p span {
+        margin: 0 10px;
+        font-size: 12px; }
+    footer #footer-bottom p {
+      text-align: center;
+      color: #777777;
+      font-size: 12px; }
+      footer #footer-bottom p span {
+        margin: 0 10px;
+        font-size: 12px; }
+      footer #footer-bottom p a {
+        text-decoration: none;
+        color: #777777; }
+        footer #footer-bottom p a s {
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          background: url(../images/guoqi.png) no-repeat; }
+        footer #footer-bottom p a .as2 {
+          background: url(../images/guoqi.png) no-repeat -21px 0; }
+        footer #footer-bottom p a .as3 {
+          background: url(../images/guoqi.png) no-repeat -41px 0; }
+        footer #footer-bottom p a .as4 {
+          background: url(../images/guoqi.png) no-repeat -21px -12px; }
+      footer #footer-bottom p a:hover {
+        color: #bc020f; }
+    footer #footer-bottom div {
+      height: 32px;
+      width: 1210px;
+      margin: 0 auto; }
+      footer #footer-bottom div p .icon-foot1 {
+        display: inline-block;
+        width: 103px;
+        height: 32px;
+        background: url(../images/ico_footer.png) no-repeat 0 0; }
+      footer #footer-bottom div p .icon-foot2 {
+        display: inline-block;
+        width: 103px;
+        height: 32px;
+        background: url(../images/ico_footer.png) no-repeat -103px 0; }
+      footer #footer-bottom div p .icon-foot3 {
+        display: inline-block;
+        width: 103px;
+        height: 32px;
+        background: url(../images/ico_footer.png) no-repeat 0 -36px; }
+      footer #footer-bottom div p .icon-foot4 {
+        display: inline-block;
+        width: 103px;
+        height: 32px;
+        background: url(../images/ico_footer.png) no-repeat -103px -36px; }
+      footer #footer-bottom div p .icon-foot5 {
+        display: inline-block;
+        width: 103px;
+        height: 32px;
+        background: url(../images/ico_footer.png) no-repeat 0px -72px; }
+      footer #footer-bottom div p .icon-foot6 {
+        display: inline-block;
+        width: 103px;
+        height: 32px;
+        background: url(../images/ico_footer.png) no-repeat -103px -72px; }
+
+/*# sourceMappingURL=homePage.css.map */

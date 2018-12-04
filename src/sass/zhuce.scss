@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#box{
+    width: 100%;
+    height: auto;
+    position: relative;
+   #header{
+    height: 76px;
+    width: 100%;
+    #head-content{
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        .logo{
+            width: 175px;
+            height: 50px;
+            float: left;
+            margin-top: 24px;
+            background: url(../images/logo-201305-c.png)no-repeat;
+        }
+        .wellcome{
+            float: left;
+            height: 34px;
+            line-height: 34px;
+            font-size: 24px;
+            color: #333;
+            margin-top: 34px;
+        }
+        .div-rigt{
+            font-size: 16px;
+            float: right;
+            margin-top: 55px;
+            color: #999;
+            a{
+                color: #e22;
+            }
+        }
+    }
+   }
+   #main{
+    width: 1200px;
+    height: 407px;
+    margin: 120px auto;
+    .biaodan{
+        width: 440px;
+        height: 466px;
+        margin: 0 auto;
+        // background: gray;
+        #regStausBox{
+            height: 55px;
+            width: 400px;
+            margin: 0 auto;
+            .regStaus{
+                position: relative;
+                >div{
+                    float: left;
+                    text-align: center;
+                    span{
+                        margin: 0 auto;
+                        display: block;
+                        width: 24px;
+                        height: 24px;
+                        line-height: 24px;
+                        background-position: -45px -200px;
+                        font-size: 12px;
+                        font-weight: 700;
+                        border-radius: 12px;
+                        border:1px solid #cccccc;
+                        color: #cccccc;
+                    }
+                    p{
+                        margin-top: 10px;
+                        font-size: 12px;
+                        color: #999999;
+                    }
+                    .havecolor{
+                        color: #33bb44;
+                    }
+                }
+                .haveMargin1,.haveMargin2{
+                    margin-left: 92px;
+                }
+                .noMargin{
+                    span{
+                        background: url(../images/reg-icon.png) no-repeat 0 -200px;
+                    }
+                }
+                .jiantou1{
+                    position: absolute;
+                    width: 124px;
+                    height: 10px;
+                    top: 11px;
+                    left: 57px;
+                    background: url(../images/reg-icon.png) no-repeat 0 -100px;
+                }
+                .jiantou2{
+                    position: absolute;
+                    width: 124px;
+                    height: 10px;
+                    top: 11px;
+                    left: 223px;
+                    background: url(../images/reg-icon.png) no-repeat 0 -100px;
+                }
+            }
+        }
+        
+        #steps{
+            // display: none;
+            margin-top: 60px;
+            width: 400px;
+            height: 246px;
+           .phoneNumb{
+            height: 86px;
+            width: 400px;
+            position: relative;
+               .country{
+                    float: left;
+                    padding-left: 20px;
+                    width: 87px;
+                    height: 54px;
+                    line-height: 52px;
+                    border: 1px solid #cccccc;
+                    text-align: center;
+                }
+                >span{
+                    position: absolute;
+                    bottom: 9px;
+                    left: 8px;
+                }
+                .inpt{
+                    height: 52px;
+                    width: 283px;
+                    float: left;
+                    border-color: #cccccc;;
+                    
+                    input{
+                        height: 100%;
+                        width: 100%;
+                        text-indent: 20px;
+                        
+                    }
+                }
+           }
+           .clickToCheck{
+            // display: none;
+               line-height: 52px;
+               text-align: center;
+               font-size: 14px;
+               color: #333;
+               cursor: pointer;
+               border: solid 1px #ddd;
+               margin-bottom: 60px;
+               
+            }
+           .clickToNext{
+            margin-top: 33px;
+            width: 100%;
+            height: 54px;
+            line-height: 54px;
+            text-align: center;
+            color: #fff;
+            background: #e2231a;
+            border: 0;
+            font-size: 16px;
+            font-family: "Microsoft YaHei","Hiragino Sans GB";
+            cursor: pointer;
+           }
+
+           .CodeNum{
+            display: none;
+               position: relative;
+               width: 400px;
+               height: 87px;
+               .inputCode{
+                   height: 54px;
+                   width: 270px;
+                   color:#999;
+                   float: left;
+                   border: 1px solid #ccc;
+                   box-sizing: border-box;
+                    input{
+                        float: left;
+                        border: none;
+                        padding: 0;
+                        height: 100%;
+                        width: 100%;
+                        text-indent: 20px;
+                    }
+               }
+               .getCode{
+                   float: left;
+                   width: 120px;
+                   height: 54px;
+                   cursor: pointer;
+                   text-align: center;
+                   line-height: 54px;
+                   font-size: 12px;
+                   box-sizing: border-box;
+                   border: 1px solid #ccc;
+                //    color: ;
+               }
+               >span{
+                //    display: none;
+                   font-size: 12px;
+                   color: #999999;
+               }
+               >.span-left{
+                   display: none;
+                   position: absolute;
+                   bottom: 9px;
+                   left: 8px;
+               }
+               >.span-right{
+                   position: absolute;
+                   bottom: 9px;
+                   right: 8px;
+               }
+           }
+        }
+    }
+   }
+   #usermessage{
+       display: none;
+       position: absolute;
+       height: 500px;
+       width: 400px;
+       left: 37%;
+       top: 32%;
+      #form{
+          div{
+               input{
+                height: 52px;
+                width: 400px;
+                text-indent: 20px;
+                font-size: 16px;
+               }
+            }
+            #userReg{
+                margin: 20px 0 0 0;
+                height: 52px;
+                width: 400px;
+                line-height: 52px;
+                text-align: center;
+                background: #e22;
+                color: white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+      }
+   }
+   #footer{
+    div{
+        color: #999;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        width: 1210px;
+        margin: 0 auto;
+        border-top: solid 1px #e6e6e6;
+        a{
+            color: #999;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 12px;  
+        }
+    }
+    p{
+        font-size: 12px;
+        text-align: center;
+        
+        color: #999;
+    }
+   }
+
+    #zhezhao{
+        display: none;
+        position: absolute;
+        height: 800px;
+        width: 100%;
+        background: black ;
+        opacity: 0.2;
+        margin: 0 auto;
+        z-index: 2;
+    }
+    #huadong-box{
+        display: none;
+        z-index: 3;
+        float: left;
+        position: relative;
+        margin: 374px auto;
+        width: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 150px;
+        background: white;
+        #box1 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 37px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background: greenyellow;
+            .close{
+                position: absolute;
+                display: block;
+                width: 24px;
+                height: 24px;
+                top: -109px;
+                left: 90%;
+                cursor: pointer;
+                text-align: center;
+                line-height: 24px;
+                background:gray;
+                color: white;
+                border-radius: 5px;
+            }
+            .isoklogo1{
+                position: absolute;
+                display: block;
+                display: none;
+                width: 24px;
+                height: 24px;
+                top: -85px;
+                left: 45%;
+                background: url(../images/reg-icon.png) no-repeat -107px -154px ;
+            }
+            .isoklogo2{
+                position: absolute;
+                display: block;
+                display: none;
+                width: 24px;
+                height: 24px;
+                top: -85px;
+                left: 45%;
+                background: url(../images/reg-icon.png) no-repeat -74px -154px  ;
+            }
+            .checkSu{
+                position: absolute;
+                top: -66px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            span{
+                display: inline-block;
+                position: absolute;
+                left: 30%;
+                top: 0;
+                height: 37px;
+                line-height: 37px;
+            }
+            #div1 {
+                color: white;
+                position: absolute;
+                height: 100%;
+                width: 37px;
+                background: grey;
+                cursor: pointer;
+                line-height: 37px;
+                font-size: 20px;
+                text-align: center;
+            }
+            #div2 {
+                /* float: left; */
+                height: 100%;
+                width: 0;
+                background:skyblue ;
+                /* color: white; */
+                text-align: center;
+                line-height: 37px;
+                font-size: 20px;
+                border-radius: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/ShopCart.css">
+    <script src="../lib/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/ShopCart.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header1">
+            <div id="content">
+                <ul id="ul1">
+                    <li>
+                        <span class="span1"><i></i>京东首页</span>
+                    </li>
+                    <li>
+                        <span class="span2"><i></i>北京</span>
+                    </li>
+
+                </ul>
+                <ul id="ul2">
+                    <li>
+                        <a href="#">您好，请登录</a>
+                        <a href="#" id="zhuce">免费注册</a>
+                        <!-- <div></div> -->
+                    </li>
+                    <li>
+                        <span>|</span>
+                        <span>我的订单</span>
+                    </li>
+                    <li class="haveDiv">
+                        <span>|</span>
+                        <span class="background">我的京东<i></i></span>
+                        <div id="dindanBox">
+                            <div id="dindanBox1">
+                                <ul>
+                                    <li>待处理订单</li>
+                                    <li>消息</li>
+                                    <li>返修退换货</li>
+                                    <li>我的问答</li>
+                                    <li>降价商品</li>
+                                    <li>我的商品</li>
+                                </ul>
+                            </div>
+                            <div id="dindanBox2">
+                                <ul>
+                                    <li>我的京豆</li>
+                                    <li>我的优惠券</li>
+                                    <li>我的白条</li>
+                                    <li>我的理财</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>|</span>
+                        <span>京东会员</span>
+                    </li>
+                    <li id="haveDiv2">
+                        <span>|</span>
+                        <span class="background">企业采购<i></i></span>
+                        <div id="caiGouBox">
+                            <ul>
+                                <li>企业购</li>
+                                <li>商用场景馆</li>
+                                <li>工业品</li>
+                                <li>礼品卡</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="haveDiv3">
+                        <span>|</span>
+                        <span class="background">客户服务<i></i></span>
+                        <div class="kefu">
+                            <div class="kefu1">
+                                <dl>
+                                    <dt>客户</dt>
+                                    <dd>帮助中心</dd>
+                                    <dd>售后服务</dd>
+                                    <dd>意见建议</dd>
+                                    <dd>电话客服</dd>
+                                    <dd>客服邮箱</dd>
+                                    <dd>金融咨询</dd>
+                                    <dd>全球售客服</dd>
+                                </dl>
+                            </div>
+                            <div class="kefu2">
+                                <dl>
+                                    <dt>客户</dt>
+                                    <dd>合作招商</dd>
+                                    <dd>学习中心</dd>
+                                    <dd>商家后台</dd>
+                                    <dd>电话客服</dd>
+                                    <dd>商家帮助</dd>
+                                    <dd>规则平台</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="haveDiv4">
+                        <span>|</span>
+                        <span class="background">网址导航<i></i></span>
+                        <div class="netnav">
+                            <div class="netnav1">
+                                <dl>
+                                    <dt>特色主题</dt>
+                                    <dd>京东试用</dd>
+                                    <dd>京东金融</dd>
+                                    <dd>全球售</dd>
+                                    <dd>国际站</dd>
+                                    <dd>京东会员</dd>
+                                    <dd>京东预售</dd>
+                                    <dd>买什么</dd>
+                                    <dd>俄语站</dd>
+                                    <dd>装机大师</dd>
+                                    <dd>0元测评</dd>
+                                    <dd>定期送</dd>
+                                    <dd>港澳售</dd>
+                                    <dd>优惠券</dd>
+                                    <dd>秒杀</dd>
+                                    <dd>闪购</dd>
+                                    <dd>印尼站</dd>
+                                    <dd>京东金融科技</dd>
+                                    <dd>In货推荐</dd>
+                                    <dd>陪伴计划</dd>
+                                    <dd>出海招商</dd>
+                                </dl>
+                            </div>
+                            <div class="netnav2">
+                                <dl>
+                                    <dt>行业频道</dt>
+                                    <dd>京东试用</dd>
+                                    <dd>京东金融</dd>
+                                    <dd>全球售</dd>
+                                    <dd>国际站</dd>
+                                    <dd>京东会员</dd>
+                                    <dd>京东预售</dd>
+                                    <dd>装机大师</dd>
+                                    <dd>0元测评</dd>
+                                    <dd>定期送</dd>
+                                    <dd>港澳售</dd>
+                                    <dd>优惠券</dd>
+                                    <dd>闪购</dd>
+                                    <dd>京东金融科技</dd>
+                                    <dd>In货推荐</dd>
+                                    <dd>出海招商</dd>
+                                </dl>
+                            </div>
+                            <div class="netnav3">
+                                <dl>
+                                    <dt>生活服务</dt>
+                                    <dd>京东试用</dd>
+                                    <dd>京东金融</dd>
+                                    <dd>全球售</dd>
+                                    <dd>国际站</dd>
+                                    <dd>京东会员</dd>
+                                    <dd>京东预售</dd>
+                                    <dd>装机大师</dd>
+                                    <dd>港澳售</dd>
+                                    <dd>优惠券</dd>
+                                    <dd>闪购</dd>
+                                    <dd>In货推荐</dd>
+                                    <dd>出海招商</dd>
+                                </dl>
+                            </div>
+                            <div class="netnav4">
+                                <dl>
+                                    <dt>更多精选</dt>
+                                    <dd>京东试用</dd>
+                                    <dd>京东金融</dd>
+                                    <dd>全球售</dd>
+                                    <dd>国际站</dd>
+                                    <dd>京东会员</dd>
+                                    <dd>京东预售</dd>
+                                    <dd>装机大师</dd>
+                                    <dd>港澳售</dd>
+                                    <dd>优惠券</dd>
+                                    <dd>闪购</dd>
+                                    <dd>出海招商</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>|</span>
+                        <span>手机京东</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="logoBox">
+            <div class="logo">
+                <div id="logoImg">
+                    <img src="../images/logo-201305-c.png" alt="图片出错了">
+                    <b>购物车</b>
+                </div>
+                <div id="search">
+                    <input type="text" class = "text">
+                    <input type="submit" value="搜索" class="sbm">
+                </div>
+            </div>
+        </div>
+        <div id="shopCartBox">
+            <div id="shopCart">
+                <div class="shopCart-t">
+                    <h3>全部商品</h3><span>3</span>
+                </div>
+                <div class="shopCart-b">
+                    <div class="Cart-title">
+                        <div class="selectAll">
+                            <span><input type="checkbox" class="selectAll-sp">全选</span>
+                        </div>
+                        <div>商品</div>
+                        <div></div>
+                        <div class="text-right">单价</div>
+                        <div class="text-right">数量</div>
+                        <div class="text-right">小计</div>
+                        <div class="text-right">操作</div>
+                    </div>
+                    <div class="Cart-content">
+                        <ul class="ul1">
+                            <!-- <li>
+                                <div class="check">
+                                    <input type="checkbox" class="checked">
+                                </div>
+                                <div class="img-title">
+                                    <div class="img">
+                                        <img src="../images/bigMaotai1.jpg" alt="图片出错啦">
+                                    </div>
+                                    <div class="title">贵州茅台酒 茅台飞天53度酱香白酒 礼盒装500ml</div>
+                                </div>
+                                <div class="kong"></div>
+                                <div class="prices">￥<span>2342.000</span></div>
+                                <div class="TheNum">
+                                    <span class="down">－</span>
+                                    <input type="text" class="num" value="1">
+                                    <span class="up">＋</span>
+                                </div>
+                                <div class="xiaoji">￥2342.00</div>
+                                <div class="del"><span class="delspan">删除</span></div>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="AllNum">
+                        <div class="AllNum-left">
+                            <div class="left1">
+                                <input type="checkbox">
+                                <span>全选</span>
+                            </div>
+                            <div class="left2">删除选中的商品</div>
+                            <div class="left3">清空购物车</div>
+                        </div>
+                        <div class="AllNum-right">
+                            <div class="pay">去结算</div>
+                            <div class="count">
+                                    总价<span>￥00.00</span>
+                            </div>
+                            <div class="haveSelect">
+                                已选择<span>0</span>件产品
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <footer>
+            <div id="footer-top">
+                <div class="fot-titleBox">
+                    <div class="fot-title">
+                        <ol>
+                            <li>
+                                <s></s>
+                                品类齐全，轻松购物
+                            </li>
+                            <li>
+                                <s class="fot-s1"></s>
+                                品类齐全，轻松购物
+                            </li>
+                            <li>
+                                <s class="fot-s1"></s>
+                                品类齐全，轻松购物
+                            </li>
+                            <li>
+                                <s class="fot-s1"></s>
+                                品类齐全，轻松购物
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="olContentBox">
+                        <div class="olContent">
+                            <dl>
+                                <dt>购物指南</dt>
+                                <dd>购物流程</dd>
+                                <dd>会员介绍</dd>
+                                <dd>生活旅游/购团</dd>
+                                <dd>常见问题</dd>
+                                <dd>大家电</dd>
+                                <dd>联系客服</dd>
+                            </dl>
+                            <dl>
+                                <dt>配送方式</dt>
+                                <dd>上门自提</dd>
+                                <dd>211限时达</dd>
+                                <dd>配送服务查询</dd>
+                                <dd>配送费收取标准</dd>
+                                <dd>海外配送</dd>
+                            </dl>
+                            <dl>
+                                <dt>支付方式</dt>
+                                <dd>货到付款</dd>
+                                <dd>在线支付</dd>
+                                <dd>分期付款</dd>
+                                <dd>邮局汇款</dd>
+                                <dd>公司转账</dd>
+                            </dl>
+                            <dl>
+                                <dt>售后服务</dt>
+                                <dd>售后政策</dd>
+                                <dd>价格保护</dd>
+                                <dd>退款说明</dd>
+                                <dd>会员介绍</dd>
+                                <dd>购物流程</dd>
+                                <dd>取消订单</dd>
+                            </dl>
+                            <dl>
+                                <dt>特色服务</dt>
+                                <dd>夺宝岛</dd>
+                                <dd>DIY装机</dd>
+                                <dd>延保服务</dd>
+                                <dd>会员介绍</dd>
+                                <dd>购物流程</dd>
+                                <dd>会员介绍</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <div id="footer-bottom">
+                <div id="footer-bottomTop">
+                    <p>
+                        <a href="#">关于我们</a>
+                        <span>|</span>
+                        <a href="#">联系我们</a>
+                        <span>|</span>
+                        <a href="#">联系客服</a>
+                        <span>|</span>
+                        <a href="#">联系客服</a>
+                        <span>|</span>
+                        <a href="#">联系客服</a>
+                        <span>|</span>
+                        <a href="#">联系客服</a>
+                        <span>|</span>
+                        <a href="#">联系客服</a>
+                        <span>|</span>
+                        <a href="#">联系客服</a>
+                        <span>|</span>
+                        <a href="#">联系客服</a>
+                        <span>|</span>
+                        <a href="#">联系客服</a>
+                        <span>|</span>
+                        <a href="#">联系客服</a>
+                        <span>|</span>
+                        <a href="#">联系客服</a>
+                    </p>
+                </div>
+                <p>
+                    <a href="#">京公网安备 11000002000088号</a>
+                    <span>|</span>
+                    京ICP证070359号
+                    <span>|</span>
+                    <a href="#">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>
+                    <span>|</span>
+                    新出发京零 字第大120007号
+                </p>
+                <p>
+                    互联网出版许可证编号新出网证(京)字150号
+                    <span>|</span>
+                    <a href="#">出版物经营许可证</a>
+                    <span>|</span>
+                    <a href="#">网络文化经营许可证京网文[2014]2148-348号</a>
+                    <span>|</span>
+                    违法和不良信息举报电话：4006561155
+                </p>
+                <p>
+                    Copyright © 2004 -
+                    <em id="copyright_year">
+                        2018
+                    </em> &nbsp;&nbsp;
+                    京东JD.com 版权所有
+                    <span>|</span>
+                    消费者维权热线：4006067733
+                    &nbsp;&nbsp;
+                    <a href="#">经营证照</a>
+                </p>
+                <p>
+                    <a href="#">
+                        <s class="as1"></s>
+                        Global Site
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                        <s class="as2"></s>
+                        Сайт России
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                        <s class="as3"></s>
+                        Situs Indonesia
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                        <s class="as4"></s>
+                        Sitio de España
+                    </a>
+                </p>
+                <p>
+                    <span>
+                        京东旗下网站:
+                    </span>
+                    <span>|</span>
+                    <a href="#">
+                        京东钱包
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                        京东云
+                    </a>
+                </p>
+    
+                <div>
+                    <p>
+                        <a href="#" class="icon-foot1"></a>
+                        <a href="#" class="icon-foot2"></a>
+                        <a href="#" class="icon-foot3"></a>
+                        <a href="#" class="icon-foot4"></a>
+                        <a href="#" class="icon-foot5"></a>
+                        <a href="#" class="icon-foot6"></a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,388 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+#header {
+  height: 76px;
+  width: 100%; }
+  #header #head-content {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    #header #head-content .logo {
+      width: 175px;
+      height: 50px;
+      float: left;
+      margin-top: 24px;
+      background: url(../images/logo-201305-c.png) no-repeat; }
+    #header #head-content .wellcome {
+      float: left;
+      height: 34px;
+      line-height: 34px;
+      font-size: 24px;
+      color: #333;
+      margin-top: 34px; }
+    #header #head-content .div-rigt {
+      font-size: 16px;
+      float: right;
+      margin-top: 55px;
+      color: #999; }
+      #header #head-content .div-rigt a {
+        color: #999;
+        text-decoration: none; }
+        #header #head-content .div-rigt a b {
+          display: inline-block;
+          width: 18px;
+          height: 14px;
+          margin: 0 5px;
+          background: url(../images/q-icon.png) no-repeat;
+          overflow: hidden;
+          vertical-align: middle; }
+
+#title {
+  width: 100%;
+  height: 39px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  background: #fff8f0; }
+  #title div {
+    width: 1424px;
+    height: 19px;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin: 0 auto; }
+
+#middle {
+  position: relative;
+  height: 475px;
+  width: 100%;
+  background: #910000; }
+  #middle #pitrue {
+    margin: 0 auto;
+    height: 475px;
+    width: 990px;
+    background: url(../images/denglubeijing.jpg) no-repeat; }
+  #middle .denglu {
+    position: absolute;
+    width: 346px;
+    height: auto;
+    background: white;
+    border: 1px solid #999;
+    right: 18%;
+    top: 5%; }
+    #middle .denglu #dl-top {
+      height: 39px;
+      width: 100%;
+      padding: 10px 0; }
+      #middle .denglu #dl-top .dl-top-content {
+        text-align: center; }
+        #middle .denglu #dl-top .dl-top-content i {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background: url(../images/icon-tips.png) no-repeat;
+          vertical-align: middle; }
+        #middle .denglu #dl-top .dl-top-content p {
+          display: inline-block;
+          font-size: 12px;
+          color: #999999;
+          text-align: center;
+          width: 264px;
+          vertical-align: middle; }
+      #middle .denglu #dl-top #scan {
+        cursor: pointer;
+        position: relative;
+        float: left;
+        height: 55px;
+        width: 173px;
+        border-bottom: 1px solid #f4f4f4; }
+        #middle .denglu #dl-top #scan a {
+          display: inline-block;
+          width: 100%;
+          height: 18px;
+          position: absolute;
+          left: 0;
+          top: 18px;
+          text-decoration: none;
+          color: #999;
+          font-size: 18px;
+          text-align: center; }
+      #middle .denglu #dl-top #scan:hover a {
+        color: red;
+        font-weight: 600; }
+      #middle .denglu #dl-top #zhanghao {
+        cursor: pointer;
+        position: relative;
+        float: left;
+        height: 55px;
+        width: 173px;
+        border-bottom: 1px solid #f4f4f4; }
+        #middle .denglu #dl-top #zhanghao a {
+          display: inline-block;
+          width: 100%;
+          height: 18px;
+          position: absolute;
+          left: 0;
+          top: 18px;
+          text-decoration: none;
+          color: #999;
+          font-size: 18px;
+          text-align: center; }
+      #middle .denglu #dl-top #zhanghao:hover a {
+        color: red;
+        font-weight: 600; }
+      #middle .denglu #dl-top #login-box {
+        height: 270px;
+        width: 306px;
+        padding: 20px;
+        z-index: 2; }
+        #middle .denglu #dl-top #login-box .top-none {
+          height: 58px;
+          width: 100%; }
+        #middle .denglu #dl-top #login-box .user {
+          position: relative;
+          height: 38px;
+          width: 100%;
+          margin-bottom: 20px;
+          border: 1px solid #bdbdbd; }
+          #middle .denglu #dl-top #login-box .user label {
+            position: absolute;
+            z-index: 3;
+            top: 0;
+            left: 0;
+            width: 38px;
+            height: 38px;
+            border-right: 1px solid #bdbdbd;
+            background: url(../images/pwd-icons-new.png) no-repeat; }
+          #middle .denglu #dl-top #login-box .user > input {
+            line-height: 18px;
+            height: 18px;
+            border: 0;
+            padding: 10px 0 10px 50px;
+            width: 254px;
+            float: none;
+            overflow: hidden;
+            font-size: 14px;
+            font-family: '\5b8b\4f53'; }
+        #middle .denglu #dl-top #login-box .psw {
+          position: relative;
+          height: 38px;
+          width: 100%;
+          margin-bottom: 20px;
+          border: 1px solid #bdbdbd; }
+          #middle .denglu #dl-top #login-box .psw label {
+            position: absolute;
+            z-index: 3;
+            top: 0;
+            left: 0;
+            width: 38px;
+            height: 38px;
+            border-right: 1px solid #bdbdbd;
+            background: url(../images/pwd-icons-new.png) no-repeat 0 -47px; }
+          #middle .denglu #dl-top #login-box .psw > input {
+            line-height: 18px;
+            height: 18px;
+            border: 0;
+            padding: 10px 0 10px 50px;
+            width: 254px;
+            float: none;
+            overflow: hidden;
+            font-size: 14px;
+            font-family: '\5b8b\4f53'; }
+        #middle .denglu #dl-top #login-box .forgot {
+          width: 100%;
+          overflow: hidden;
+          height: 18px; }
+          #middle .denglu #dl-top #login-box .forgot a {
+            display: inline-block;
+            float: right;
+            text-decoration: none;
+            color: #9999;
+            font-size: 14px; }
+        #middle .denglu #dl-top #login-box #login {
+          margin: 10px 0 0 0;
+          width: 100%;
+          height: 33px;
+          border: 1px solid #e85356; }
+          #middle .denglu #dl-top #login-box #login a {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            line-height: 33px;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            background: #e4393c; }
+      #middle .denglu #dl-top #login-type {
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 50px;
+        border-top: 1px solid #f4f4f4;
+        height: 50px;
+        background-color: #fcfcfc; }
+        #middle .denglu #dl-top #login-type ul {
+          width: 200px;
+          height: 50px; }
+          #middle .denglu #dl-top #login-type ul li {
+            float: left;
+            height: 50px;
+            width: 50px;
+            list-style: none;
+            font-size: 12px;
+            position: relative; }
+            #middle .denglu #dl-top #login-type ul li i {
+              position: absolute;
+              top: 16px;
+              left: 0;
+              display: inline-block;
+              width: 18px;
+              height: 18px;
+              background: url(../images/QQ-weixin.png) no-repeat -1px 0; }
+            #middle .denglu #dl-top #login-type ul li .weixin {
+              background: url(../images/QQ-weixin.png) no-repeat -20px 0; }
+            #middle .denglu #dl-top #login-type ul li a {
+              color: #666;
+              margin: 0 0 0 21px; }
+            #middle .denglu #dl-top #login-type ul li a:hover {
+              color: red; }
+        #middle .denglu #dl-top #login-type ul::after {
+          clear: both;
+          height: 0;
+          content: '';
+          display: block;
+          visibility: hidden; }
+        #middle .denglu #dl-top #login-type #zhuce {
+          float: right;
+          position: absolute;
+          right: 20px;
+          top: 0; }
+          #middle .denglu #dl-top #login-type #zhuce a {
+            font-size: 15px;
+            color: #b61d1d;
+            position: relative; }
+            #middle .denglu #dl-top #login-type #zhuce a b {
+              position: absolute;
+              top: 3px;
+              left: -20px;
+              display: inline-block;
+              width: 16px;
+              height: 16px;
+              background: url(../images/pwd-icons-new.png) no-repeat -104px -75px; }
+      #middle .denglu #dl-top #login-type::after {
+        clear: both;
+        height: 0;
+        content: '';
+        display: block;
+        visibility: hidden; }
+      #middle .denglu #dl-top #scan-box {
+        display: none;
+        width: 306px;
+        padding: 20px 18px 20px 20px;
+        text-align: center; }
+        #middle .denglu #dl-top #scan-box .scanCode {
+          position: relative;
+          height: 168px;
+          margin-top: 55px;
+          height: 168px; }
+          #middle .denglu #dl-top #scan-box .scanCode #show {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            height: 163px;
+            width: 173px;
+            box-sizing: border-box;
+            padding: 10px 5px 0 5px;
+            border: 1px solid #cccccc;
+            cursor: pointer; }
+            #middle .denglu #dl-top #scan-box .scanCode #show img {
+              width: 153px;
+              height: 143px; }
+          #middle .denglu #dl-top #scan-box .scanCode #phone {
+            display: none;
+            position: absolute;
+            right: -22px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 163px;
+            width: 173px; }
+            #middle .denglu #dl-top #scan-box .scanCode #phone img {
+              width: 153px;
+              height: 167px; }
+        #middle .denglu #dl-top #scan-box .tips {
+          width: 257px;
+          margin: 18px auto 14px;
+          text-align: center; }
+          #middle .denglu #dl-top #scan-box .tips ul {
+            list-style: none;
+            padding-left: 40px;
+            width: 100%;
+            height: 18px;
+            display: block;
+            text-align: center; }
+            #middle .denglu #dl-top #scan-box .tips ul li {
+              padding-left: 10px;
+              margin-right: 10px;
+              float: left;
+              list-style: none;
+              font-size: 12px; }
+              #middle .denglu #dl-top #scan-box .tips ul li a {
+                color: #e4393c; }
+        #middle .denglu #dl-top #scan-box .ways {
+          width: 100%;
+          height: 25px; }
+          #middle .denglu #dl-top #scan-box .ways ul {
+            list-style: none;
+            padding-left: 5px; }
+            #middle .denglu #dl-top #scan-box .ways ul li {
+              width: 75px;
+              height: 25px;
+              float: left;
+              font-size: 12px;
+              color: #666;
+              list-style: none;
+              text-align: left;
+              position: relative;
+              margin-right: 18px;
+              text-align: right;
+              position: relative;
+              line-height: 25px; }
+              #middle .denglu #dl-top #scan-box .ways ul li b {
+                position: absolute;
+                top: 0;
+                left: 12px;
+                display: block;
+                width: 25px;
+                height: 25px;
+                background: url(../images/qr-coagent.png) no-repeat 0 0; }
+            #middle .denglu #dl-top #scan-box .ways ul .li2 b {
+              top: 0;
+              left: 12px;
+              background: url(../images/qr-coagent.png) no-repeat -27px 0; }
+            #middle .denglu #dl-top #scan-box .ways ul .li3 b {
+              background: url(../images/qr-coagent.png) no-repeat -54px 0; }
+
+#footer div {
+  color: #999;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  width: 1210px;
+  margin: 0 auto;
+  border-top: solid 1px #e6e6e6; }
+  #footer div a {
+    color: #999;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 12px; }
+#footer p {
+  font-size: 12px;
+  text-align: center;
+  color: #999; }
+
+/*# sourceMappingURL=denglu.css.map */
